@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    display: inline-block;
+    border: 2px dotted black;
+    font-size: 1.6em;
+}
+
+.box {
+    display: inline-block;
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: salmon;
+    position: relative;
+    bottom: 15px;
+}
