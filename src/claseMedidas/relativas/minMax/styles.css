@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: royalblue;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+section p {
+    font-size: 5em;
+}
