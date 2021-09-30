@@ -1,3 +1,14 @@
+/* toda la etiqueta parrafo que este cerca de un h2 */
+/* esta se llama adjacent sibling */
+
 h2 + p {
     color: red;
+}
+
+/* este es un general sibling
+osea que todo lo que este dentro del mismo
+contenedor va a cumplirse */
+
+h2 ~ p {
+    color: orange;
 }
